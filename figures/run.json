@@ -1,0 +1,403 @@
+{
+  "period": [
+    1996,
+    2025
+  ],
+  "window": 30,
+  "quartiles": "reference",
+  "smoothing": "majority",
+  "smooth_size": 5,
+  "dpi": 140,
+  "format": "png",
+  "maps": [
+    "contours",
+    "demartonne",
+    "bivariate"
+  ],
+  "windows": [
+    {
+      "start": 1996,
+      "end": 2025,
+      "valid_cells": 358303,
+      "precipitation_quartiles_mm": [
+        637.6666666666666,
+        752.2666666666667,
+        856.5333333333333
+      ],
+      "temperature_quartiles_celsius": [
+        9.123333333333335,
+        9.606666666666666,
+        10.096666666666666
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "year": 1996,
+      "variable": "precipitation",
+      "filename": "RSMS_17_1996_01.asc",
+      "sha256": "379a364ac174565000f043b49bc17b6e5b655960523d0698206fc690bfa6d7f8"
+    },
+    {
+      "year": 1996,
+      "variable": "temperature",
+      "filename": "TAMM_17_1996_01.asc",
+      "sha256": "5799d344ce3ab1d5632cb1e6d5f1279ced41fc91246e692c449f49f94cf9103e"
+    },
+    {
+      "year": 1997,
+      "variable": "precipitation",
+      "filename": "RSMS_17_1997_01.asc",
+      "sha256": "dffb135a49d996a7fa794e45f1a9c137e824fbc0fea450068fd3736a5cd6e8fb"
+    },
+    {
+      "year": 1997,
+      "variable": "temperature",
+      "filename": "TAMM_17_1997_01.asc",
+      "sha256": "d7aac1dd7972edbcae8908defd425fc995ed12e53ee461bdb4c8fdc6e8a042c1"
+    },
+    {
+      "year": 1998,
+      "variable": "precipitation",
+      "filename": "RSMS_17_1998_01.asc",
+      "sha256": "db2d15caaef8cf7b8c9a163bd1c421959f543f87f70b1d4dbe4dd72d590a7595"
+    },
+    {
+      "year": 1998,
+      "variable": "temperature",
+      "filename": "TAMM_17_1998_01.asc",
+      "sha256": "59b0e04684892b74e2a180abd374bc73238d687a54538ef645864856f4b32b05"
+    },
+    {
+      "year": 1999,
+      "variable": "precipitation",
+      "filename": "RSMS_17_1999_01.asc",
+      "sha256": "136af69a5d486b637d5d0676dffb71fdd60ef9e9ed0a32760b501a89598ce556"
+    },
+    {
+      "year": 1999,
+      "variable": "temperature",
+      "filename": "TAMM_17_1999_01.asc",
+      "sha256": "7c852a1042434387c68d95b5061351ecef0fdfe38fca84a005d68b3d72f92729"
+    },
+    {
+      "year": 2000,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2000_01.asc",
+      "sha256": "c505f5817f32b73fd9d1a74b6e6632ba93e4bed58cf3beefe4ac797f9e3a6ac7"
+    },
+    {
+      "year": 2000,
+      "variable": "temperature",
+      "filename": "TAMM_17_2000_01.asc",
+      "sha256": "427e71ad2bab3c6d43d9c255a881f1c895d4a5d00ee44184d122a5c92ba67e83"
+    },
+    {
+      "year": 2001,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2001_01.asc",
+      "sha256": "abbbebd81d3bff3a4fb3a87956c16e54ee93c930a7498a40422393a2c430eb84"
+    },
+    {
+      "year": 2001,
+      "variable": "temperature",
+      "filename": "TAMM_17_2001_01.asc",
+      "sha256": "6f3c9efd4742291a1a9ced9511d868379f892aa7dac64bb47433c01c3ce2d679"
+    },
+    {
+      "year": 2002,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2002_01.asc",
+      "sha256": "521bb13a4f9c2dea88efdceffbc2f8d4d6bddccdcfa1f52f23fb10fa92912db8"
+    },
+    {
+      "year": 2002,
+      "variable": "temperature",
+      "filename": "TAMM_17_2002_01.asc",
+      "sha256": "efc1970a111a13bb457205b8bc256068a04299d481056e83364e2e3bdaab6798"
+    },
+    {
+      "year": 2003,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2003_01.asc",
+      "sha256": "da1945c3dabbad0b73c6fa37624873c4b2f5c980ff2104606840fac7bb9a9b5f"
+    },
+    {
+      "year": 2003,
+      "variable": "temperature",
+      "filename": "TAMM_17_2003_01.asc",
+      "sha256": "cde5358a07a0eb58e71fe1f5026361bb70d31e393e5150fa2ed768d3c0e90578"
+    },
+    {
+      "year": 2004,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2004_01.asc",
+      "sha256": "1c8ed93b38a35eaabf8f432674bef3ecdab5a1016b1af5abf1c8bc25af49e0b6"
+    },
+    {
+      "year": 2004,
+      "variable": "temperature",
+      "filename": "TAMM_17_2004_01.asc",
+      "sha256": "09497144a88059161a86b908a97452449944e8c542c32fb18a7550e233444d3e"
+    },
+    {
+      "year": 2005,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2005_01.asc",
+      "sha256": "dc48ab9715cc79113b72316ad192dbdcf5c9a9cd608bcf6c47420de84396b65f"
+    },
+    {
+      "year": 2005,
+      "variable": "temperature",
+      "filename": "TAMM_17_2005_01.asc",
+      "sha256": "9892ccbea4829bf37b2b10d0f686291b9b17d35a3f44c7e7f2f927ee20951943"
+    },
+    {
+      "year": 2006,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2006_01.asc",
+      "sha256": "d5fa46cf0f3da853a7fdccadbb28170fdc8b7a6e642fb9ab54aaf9859de28427"
+    },
+    {
+      "year": 2006,
+      "variable": "temperature",
+      "filename": "TAMM_17_2006_01.asc",
+      "sha256": "bdddf1010cbb47be31ac13284eb7fac9bbc696218b3f91b517938f2263be9b34"
+    },
+    {
+      "year": 2007,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2007_01.asc",
+      "sha256": "9e04ea5376aa3508a496e80b71ad85625d94611a5d13561719db61e6544d5db9"
+    },
+    {
+      "year": 2007,
+      "variable": "temperature",
+      "filename": "TAMM_17_2007_01.asc",
+      "sha256": "f5cd64f4e8a7b832b508945d9a82f2b88d459e9bd1c692d27f1e2774d812daea"
+    },
+    {
+      "year": 2008,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2008_01.asc",
+      "sha256": "45ecb08ceb4fe786b096f9538b01e60f74eb177f3e0229b5165abf6fc205bb8d"
+    },
+    {
+      "year": 2008,
+      "variable": "temperature",
+      "filename": "TAMM_17_2008_01.asc",
+      "sha256": "2da61b7b3734d66935abb6e0c9eb5426fd4e196858cd2cc3778a814154267b18"
+    },
+    {
+      "year": 2009,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2009_01.asc",
+      "sha256": "cbdb800c81230ecbf60b3558326059dc8ae4469067bd8c836906dc341f4fdfdd"
+    },
+    {
+      "year": 2009,
+      "variable": "temperature",
+      "filename": "TAMM_17_2009_01.asc",
+      "sha256": "827c668de08d0b3594249e80713e4c60f87820390dc812435349eaa5910fcd86"
+    },
+    {
+      "year": 2010,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2010_01.asc",
+      "sha256": "bf17f00f22103bee955faf5ab485630b871f2c2b39c9b386b6d53b26c1c87e4f"
+    },
+    {
+      "year": 2010,
+      "variable": "temperature",
+      "filename": "TAMM_17_2010_01.asc",
+      "sha256": "9aea9e7aea2c5ff997d113471db3de01a668ba651ab34c16a60be8c749a5690d"
+    },
+    {
+      "year": 2011,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2011_01.asc",
+      "sha256": "2a8c3111340fe1847919ff05c245b99c6f583d30285a84719e3a6bc5e816107f"
+    },
+    {
+      "year": 2011,
+      "variable": "temperature",
+      "filename": "TAMM_17_2011_01.asc",
+      "sha256": "6ccb0f5d97db89076a304d660892318db31a8b33b4ce5c08e7a0c565a519bba3"
+    },
+    {
+      "year": 2012,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2012_01.asc",
+      "sha256": "1177b327c1e89167d529ab016c9d912c858b75c0257416e466e21c3cd42152bb"
+    },
+    {
+      "year": 2012,
+      "variable": "temperature",
+      "filename": "TAMM_17_2012_01.asc",
+      "sha256": "27c9862c957330607c679714866bdb87e27c91e036048c676d0443467e11ed2d"
+    },
+    {
+      "year": 2013,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2013_01.asc",
+      "sha256": "3acb1d436f74e3efbfea76f960f4ca528b2af02ca843a37f7cd05ffd2635d78d"
+    },
+    {
+      "year": 2013,
+      "variable": "temperature",
+      "filename": "TAMM_17_2013_01.asc",
+      "sha256": "6f3e68e30fe8ed83bd4324f76fa6bc6198696a13f3054569310c410c2f87642f"
+    },
+    {
+      "year": 2014,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2014_01.asc",
+      "sha256": "3dc51abc0e8041994fc69888429fd500a3b6e1c1dd5e3e05e7b431771d451ba7"
+    },
+    {
+      "year": 2014,
+      "variable": "temperature",
+      "filename": "TAMM_17_2014_01.asc",
+      "sha256": "b7aac7bb952dfad7ad352ef6a6b952aa162de9c17d4ec4df8fc0687f2de20b52"
+    },
+    {
+      "year": 2015,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2015_01.asc",
+      "sha256": "61754f99950ff2fac211be1b58cef1905548f09d82011fb3473ffdfe0872ad2d"
+    },
+    {
+      "year": 2015,
+      "variable": "temperature",
+      "filename": "TAMM_17_2015_01.asc",
+      "sha256": "7f6be624e691feff9bec82a48d2ab4e24c0a38afcb8dc15c4e3421175b299682"
+    },
+    {
+      "year": 2016,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2016_01.asc",
+      "sha256": "fdde004c424b99028ec849cf65044afb7a794057f90c995494adfa9dd0fa8260"
+    },
+    {
+      "year": 2016,
+      "variable": "temperature",
+      "filename": "TAMM_17_2016_01.asc",
+      "sha256": "7163d0cf931c952f67315d97013c02cbde1d93c799f0ad5c2bcc6edfaed59991"
+    },
+    {
+      "year": 2017,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2017_01.asc",
+      "sha256": "9d5a6ed656e76b824cd50609c4ef63d02885a46235e4512f37218f610956c6d4"
+    },
+    {
+      "year": 2017,
+      "variable": "temperature",
+      "filename": "TAMM_17_2017_01.asc",
+      "sha256": "bb52bc26960925d60f64dcfb5d9257459475e68c13fe09acd56c45872488a14d"
+    },
+    {
+      "year": 2018,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2018_01.asc",
+      "sha256": "d5b1a6742c6c8aa5b12100871355e49dfc7b926fe3dc970f9581997e1ff2c3bd"
+    },
+    {
+      "year": 2018,
+      "variable": "temperature",
+      "filename": "TAMM_17_2018_01.asc",
+      "sha256": "4ee2b46c6b171d74e887c262c0507d267f257f234fdc78b35c13b920efb8691f"
+    },
+    {
+      "year": 2019,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2019_01.asc",
+      "sha256": "e82c604101d87b6f85e56f99febf9d86c69e1869e50ec5247e50d96c7491ccee"
+    },
+    {
+      "year": 2019,
+      "variable": "temperature",
+      "filename": "TAMM_17_2019_01.asc",
+      "sha256": "896a6a8db55f8ac2f47f345829e96d4998c39d3876117e030a7f8b3fbdf6dd76"
+    },
+    {
+      "year": 2020,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2020_01.asc",
+      "sha256": "16adb5cf2465b790e3af4fb1050d88d07110cf9125059ac6b19004374cda4f82"
+    },
+    {
+      "year": 2020,
+      "variable": "temperature",
+      "filename": "TAMM_17_2020_01.asc",
+      "sha256": "f54f11bcfdd9c5c3510e4859840b8d00699f9ebfb1037faf7df270dcd072ac01"
+    },
+    {
+      "year": 2021,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2021_01.asc",
+      "sha256": "7e57c7e45774697fea5dfb89e473dd0190fafde47b6869fc0af418c03e136d65"
+    },
+    {
+      "year": 2021,
+      "variable": "temperature",
+      "filename": "TAMM_17_2021_01.asc",
+      "sha256": "2614e570980ecb90a1c873ab6c27ce37ee33f228bd62d475deae690e725c7c6c"
+    },
+    {
+      "year": 2022,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2022_01.asc",
+      "sha256": "9db5ddf15a776400b284502855711a75ba74a3ad2edd4e7c982b20887af31ade"
+    },
+    {
+      "year": 2022,
+      "variable": "temperature",
+      "filename": "TAMM_17_2022_01.asc",
+      "sha256": "a26813ed7e36d08d2632d5e4c3071570d3f38ec5ada755b54cd562b6f01b8ecd"
+    },
+    {
+      "year": 2023,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2023_01.asc",
+      "sha256": "19e6b1bcf60ed3052af26c3a53d2e508f278e1c95719a8d354087bcf04014909"
+    },
+    {
+      "year": 2023,
+      "variable": "temperature",
+      "filename": "TAMM_17_2023_01.asc",
+      "sha256": "ae406da19d66172dcda589c49cf1c6d3c8259be31b5f2835664cff9cbf328438"
+    },
+    {
+      "year": 2024,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2024_01.asc",
+      "sha256": "6281c920bd59280d2b638965ec88dc75ed1b6885c1c19ba491f561500adc4d52"
+    },
+    {
+      "year": 2024,
+      "variable": "temperature",
+      "filename": "TAMM_17_2024_01.asc",
+      "sha256": "3a06c64095518332a0836b3214faa8216a4aab3a48b1769561e31d393f946d18"
+    },
+    {
+      "year": 2025,
+      "variable": "precipitation",
+      "filename": "RSMS_17_2025_01.asc",
+      "sha256": "98428472f3445b6ba1bbd68269191f1df068c3b74cd6cf26427785744dff02c5"
+    },
+    {
+      "year": 2025,
+      "variable": "temperature",
+      "filename": "TAMM_17_2025_01.asc",
+      "sha256": "901d2e35cfd053b258c81159a45b6e50146b3bbe760838a24c70482889764d8a"
+    }
+  ],
+  "software": {
+    "numpy": "2.1.3",
+    "scipy": "1.15.3",
+    "rasterio": "1.4.3",
+    "matplotlib": "3.10.0",
+    "Pillow": "11.2.1"
+  }
+}
